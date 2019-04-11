@@ -1,0 +1,1 @@
+This is a placeholder for the images folder, because git won't add it to the project until a file exists.
