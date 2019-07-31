@@ -39,9 +39,23 @@ body {
 }
 */
 
+
+@media (max-width: 575.98px) { 
+
+.navbar-brand {
+	/* font-size: 1rem; */
+	display: contents; 
+}
+
+
+}
+
+
+
 .navstyle {
 	background-image: url(../images/navbmp.png);
 }
+
 
 .nav-image {
 	background-color: #2f2f2f;
@@ -51,8 +65,13 @@ body {
     width: 13%;
     height: auto;
     border-style: solid;
+	border-color: turquoise;
+	border-width: thin
 	
 }
+
+/* the following should be set on mobile breakpoint only */
+
 
 /*
 .blended {
