@@ -14,7 +14,16 @@
 	background-color: turquoise;
 }
 
-
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-outline-primary:hover,
+.btn-outline-primary:focus
+ {
+  color: #333;
+  text-shadow: none; /* Prevent inheritance from `body` */
+  background-color: #fff;
+  border: .05rem solid #fff;
+}
 
 body {
   padding-top: 3rem;
