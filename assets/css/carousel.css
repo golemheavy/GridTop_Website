@@ -2,6 +2,20 @@
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
+.btn-outline-primary {
+	border-color: turquoise;
+	color: turquoise;
+}
+
+
+.btn-primary {
+	border-color: turquoise;
+	color: black;
+	background-color: turquoise;
+}
+
+
+
 body {
   padding-top: 3rem;
   /* padding-bottom: 3rem; */
