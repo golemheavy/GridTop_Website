@@ -48,10 +48,16 @@ body {
 	
 }
 
+/*
 .blended {
   background-image: url(../images/eschercubesedited.png);
   background-color: turquoise;
   background-blend-mode: soft-light; 
+}
+*/
+
+.blended {
+	background-image: url(../images/mainbackground.png);
 }
 
 .backfilter1 {
