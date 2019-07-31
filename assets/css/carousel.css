@@ -46,7 +46,7 @@ body {
 }
 
 .backfilter1 {
-	-webkit-backdrop-filter: invert(10%) hue-rotate(90deg) blur(3px);
+	backdrop-filter: invert(10%) hue-rotate(90deg) blur(3px);
 }
 
 
