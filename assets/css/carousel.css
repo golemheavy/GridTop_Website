@@ -31,10 +31,16 @@ body {
   color: #5a5a5a;
 }
 
+/*
 .navstyle {
 	background-image: url(../images/mc-escher-cube-23151-inverted.png);
 	background-color: lightgray;
 	background-blend-mode: difference; 
+}
+*/
+
+.navstyle {
+	background-image: url(../images/navbmp.png);
 }
 
 .nav-image {
@@ -60,21 +66,39 @@ body {
 	background-image: url(../images/mainbackground.png);
 }
 
+/*
 .backfilter1 {
 	-webkit-backdrop-filter: invert(10%) hue-rotate(90deg) blur(3px);
 	backdrop-filter: invert(10%) hue-rotate(90deg) blur(3px);
 }
+*/
+
+.backfilter1 {
+	background-image: url(../images/specbackground2.png);
+}
 
 
+/*
 .backfilter2 {
 	-webkit-backdrop-filter: invert(10%) hue-rotate(180deg) blur(3px);
 	backdrop-filter: invert(10%) hue-rotate(180deg) blur(3px);
 }
+*/
 
+.backfilter2 {
+	background-image: url(../images/specbackground1.png);
+}
+
+.blur {
+	background-image: url(../images/specbackground3.png);
+}
+
+/*
 .blur {
 	-webkit-backdrop-filter: blur(4px);
 	backdrop-filter: blur(4px);
 }
+*/
 
 
 /* CUSTOMIZE THE CAROUSEL
@@ -157,9 +181,16 @@ body {
   }
 }
 
+/*
 footer {
 	font-size:1.5rem;
 	background-color: lightblue;
 	background-image: url(../images/mc-escher-cube-23151-transparent.png);
 	background-blend-mode: soft-light;
+}
+*/
+
+footer {
+	font-size:1.5rem;
+	background-color: #00000022;
 }
