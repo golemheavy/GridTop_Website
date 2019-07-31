@@ -8,6 +8,25 @@ body {
   color: #5a5a5a;
 }
 
+.blended {
+  background-image: url(../images/eschercubesedited.png);
+  background-color: turquoise;
+  background-blend-mode: screen; 
+}
+
+.backfilter1 {
+	backdrop-filter: invert(10%) hue-rotate(90deg) blur(3px);
+}
+
+
+.backfilter2 {
+	backdrop-filter: invert(10%) hue-rotate(180deg) blur(3px);
+}
+
+.blur {
+	backdrop-filter: blur(4px)
+}
+
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
