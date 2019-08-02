@@ -52,16 +52,19 @@ body {
 }
 
 .nav-image {
+	
+	/*
 	background-color: #2f2f2f;
     padding: 6px 4px;
+	border-width: thin
+	*/
+	
     border-radius: 50%;
     margin-right: 1rem;
-    width: 13%;
+    width: 6%;
     height: auto;
     border-style: solid;
 	border-color: turquoise;
-	border-width: thin
-	
 }
 
 /* the following should be set on mobile breakpoint only */
@@ -205,5 +208,5 @@ footer {
 
 footer {
 	font-size:1.5rem;
-	background-color: #00000022;
+	background-color: #00000011;
 }
