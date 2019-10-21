@@ -14,8 +14,28 @@ body {
 	padding: 0;
 }
 
+/*
+.navbar-collapse {
+	margin-right: 1rem;
+}
+*/
+
+.navbar-toggler, .search-button, .form-control, .form-inline {
+	margin: auto;
+}
+
+.form-control {
+	width: auto;
+}
+
+.search-button {
+	margin-left: 1rem;
+}
+
+
 .navbar-brand {
 	color: #5ce1e6!important;
+	margin: auto;
 }
 .navstyle {
 	background-image: url(../images/mc-escher-cube-23151-inverted.png);
@@ -27,15 +47,20 @@ body {
 	
 }
 
+nav {
+	margin: auto;
+	text-align: center;
+}
+
 .nav-image {
 	/* background-color: #2f2f2f; */
 	/* background-color: #383d41; */
     /* padding: 6px 4px; */ 
 	padding: 3px;
     border-radius: 50%;
-    margin-right: 1rem;
-    width: 8%;
-    height: auto;
+    margin: 0 1rem;
+    width: 55px;
+	height: 50px;
     border-style: solid;
 	
 }
@@ -121,6 +146,10 @@ body {
   letter-spacing: -.05rem;
 }
 
+.bd-placeholder-img {
+	width: auto;
+	height: auto;
+}
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
@@ -144,9 +173,23 @@ body {
   }
 }
 
+
+@media (max-width: 768px) {
+	
+	.form-inline {
+		display: grid;
+	}
+	
+	.search-button {
+	margin: 1rem auto;
+}
+}
+
+
 footer {
 	font-size:1.5rem;
 	background-color: lightblue;
 	background-image: url(../images/mc-escher-cube-23151-transparent.png);
 	background-blend-mode: soft-light;
+	color: black;
 }
