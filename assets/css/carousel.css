@@ -80,7 +80,7 @@ body {
 }
 */
 
-.navbar-toggler, .search-button, .form-control, .form-inline {
+.search-button, .form-control, .form-inline {
 	margin: auto;
 }
 
@@ -92,11 +92,10 @@ body {
 	margin-left: 1rem;
 }
 
-
 .navbar-brand {
 	color: #5ce1e6!important;
-	margin: auto;
 }
+
 .navstyle {
 	background-image: url(../images/mc-escher-cube-23151-inverted.png);
 	/* background-color: lightgray; */
@@ -118,7 +117,6 @@ nav {
     /* padding: 6px 4px; */ 
 	padding: 3px;
     border-radius: 50%;
-    margin: 0 1rem;
     width: 55px;
 	height: 50px;
     border-style: solid;
@@ -225,6 +223,14 @@ nav {
   .featurette-heading {
     font-size: 50px;
   }
+  
+	.navbar-toggler, .navbar-brand {
+		margin: auto;
+	}
+	
+	.nav-image {
+		margin: 0 1rem;
+	}
 }
 
 @media (min-width: 62em) {
@@ -244,8 +250,16 @@ nav {
 		margin: 1rem auto;
 	}
 	
-	.navbar-toggler {
+	.navbar-brand {
 		margin: 0;
+	}
+	
+	.navbar-toggler {
+		margin: 0 .5rem 0 0;
+	}
+	
+	.nav-image {
+		margin: 0 .5rem 0 0;
 	}
 }
 
