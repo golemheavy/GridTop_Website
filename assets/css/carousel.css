@@ -241,8 +241,12 @@ nav {
 	}
 	
 	.search-button {
-	margin: 1rem auto;
-}
+		margin: 1rem auto;
+	}
+	
+	.navbar-toggler {
+		margin: 0;
+	}
 }
 
 
