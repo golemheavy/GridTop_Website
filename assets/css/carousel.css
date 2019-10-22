@@ -7,7 +7,42 @@ body {
   /* padding-bottom: 3rem; 
   color: #5a5a5a;  */
   color: #5ce1e6;
-  background-color: #383d41;
+  background-color: #370e3c;
+}
+
+.btn-primary {
+	background-color: #c400a1;
+    border-color: #c400a1;
+}
+
+.btn-primary:hover {
+  background-color: #772481;
+}
+
+.btn-secondary {
+	background-color: #4d96ef;
+    border-color: #4d96ef;
+}
+
+.btn-secondary:hover {
+  background-color: #0b29ff;
+}
+
+.search-button {
+	/* kground-color: #c400a1; 
+    border-color: #c400a1; */
+	border-color: #c400a1;
+	color: white;
+}
+
+.search-button:hover {
+	background-color: #772481;
+	border-color: #c400a1;
+}
+
+.search-button:click {
+	background-color: #772481;
+	border-color: #c400a1;
 }
 
 .navbar {
