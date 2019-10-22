@@ -174,7 +174,7 @@ nav {
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 	
 	.form-inline {
 		display: grid;
@@ -192,4 +192,16 @@ footer {
 	background-image: url(../images/mc-escher-cube-23151-transparent.png);
 	background-blend-mode: soft-light;
 	color: black;
+	display: inline-block;
+	padding-bottom: 1rem;
+}
+
+.footer-column {
+	/* width: max-content; */
+	max-width: max-content;
+	margin: auto;
+}
+
+.footer-logo {
+	width:6rem;height:auto;
 }
