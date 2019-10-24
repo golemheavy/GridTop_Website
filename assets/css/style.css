@@ -2,6 +2,10 @@
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   padding-top: 3rem;
   /* padding-bottom: 3rem; 
@@ -127,6 +131,12 @@ nav {
     border-style: solid;
 	
 }
+
+
+#contact-form {
+		background-color: black
+}
+
 
 .blended {
 	/*
