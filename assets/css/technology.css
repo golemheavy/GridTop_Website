@@ -1,5 +1,12 @@
 body {
 	padding: 0;
+	background-image:
+		linear-gradient(
+			rgba(55, 14, 60, 1), 
+			rgba(48, 217, 255, 0.9)
+		),
+
+		url("../images/eschercubesedited.png");
 }
 
 .footer {
