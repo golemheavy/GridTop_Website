@@ -89,6 +89,10 @@ body {
 	width: auto;
 }
 
+.form-inline {
+		display: none;
+}
+
 .search-button {
 	margin-left: 1rem;
 }
@@ -243,9 +247,9 @@ nav {
 
 @media (max-width: 767px) {
 	
-	.form-inline {
+	/*.form-inline {
 		display: grid;
-	}
+	}*/
 	
 	.search-button {
 		margin: 1rem auto;
