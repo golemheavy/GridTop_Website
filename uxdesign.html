@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v3.8.5">
+    <title>GridTop UX Design</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/carousel/">
+
+    <!-- Bootstrap core CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <!-- Custom styles for this template -->
+    <link href="./assets/css/style.css" rel="stylesheet">
+    <style>
+        
+	body {
+		padding: 0;
+		
+		background-color: #47a;
+background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0naHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmcnIHhtbG5zOnhsaW5rPSdodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rJyB3aWR0aD0nMjU2JyBoZWlnaHQ9JzE2MCcgdmlld0JveD0nMCAwIDEyOCA4MCc+Cgk8ZGVmcz4KCQk8cmVjdCBpZD0ncycgZmlsbD0nIzAwMCcgd2lkdGg9JzcuMDQnIGhlaWdodD0nNy4wNCcvPgoJPC9kZWZzPgoJPGcgaWQ9J2InPgoJPHVzZSB4PScwLjQ4JyB5PScwLjQ4JyBmaWxsLW9wYWNpdHk9JzAuMDQnIHhsaW5rOmhyZWY9JyNzJyAvPgoJPHVzZSB4PSc4LjQ4JyB5PScwLjQ4JyBmaWxsLW9wYWNpdHk9JzAuMDInIHhsaW5rOmhyZWY9JyNzJyAvPgoJPHVzZSB4PScxNi40OCcgeT0nMC40OCcgZmlsbC1vcGFjaXR5PScwLjA2JyB4bGluazpocmVmPScjcycgLz4KCTx1c2UgeD0nMjQuNDgnIHk9JzAuNDgnIGZpbGwtb3BhY2l0eT0nMC4wNScgeGxpbms6aHJlZj0nI3MnIC8+Cgk8dXNlIHg9JzMyLjQ4JyB5PScwLjQ4JyBmaWxsLW9wYWNpdHk9JzAuMDInIHhsaW5rOmhyZWY9JyNzJyAvPgoJPHVzZSB4PSc0MC40OCcgeT0nMC40OCcgZmlsbC1vcGFjaXR5PScwLjA0JyB4bGluazpocmVmPScjcycgLz4KCTx1c2UgeD0nNDguNDgnIHk9JzAuNDgnIGZpbGwtb3BhY2l0eT0nMC4wNycgeGxpbms6aHJlZj0nI3MnIC8+Cgk8dXNlIHg9JzAuNDgnIHk9JzguNDgnIGZpbGwtb3BhY2l0eT0nMC4wMycgeGxpbms6aHJlZj0nI3MnIC8+Cgk8dXNlIHg9JzguNDgnIHk9JzguNDgnIGZpbGwtb3BhY2l0eT0nMC4wNCcgeGxpbms6aHJlZj0nI3MnIC8+Cgk8dXNlIHg9JzE2LjQ4JyB5PSc4LjQ4JyBmaWxsLW9wYWNpdHk9JzAuMDInIHhsaW5rOmhyZWY9JyNzJyAvPgoJPHVzZSB4PScyNC40OCcgeT0nOC40OCcgZmlsbC1vcGFjaXR5PScwLjA2JyB4bGluazpocmVmPScjcycgLz4KCTx1c2UgeD0nMzIuNDgnIHk9JzguNDgnIGZpbGwtb3BhY2l0eT0nMC4wNCcgeGxpbms6aHJlZj0nI3MnIC8+Cgk8dXNlIHg9JzQwLjQ4JyB5PSc4LjQ4JyBmaWxsLW9wYWNpdHk9JzAuMDMnIHhsaW5rOmhyZWY9JyNzJyAvPgoJPHVzZSB4PSc0OC40OCcgeT0nOC40OCcgZmlsbC1vcGFjaXR5PScwLjAxJyB4bGluazpocmVmPScjcycgLz4KCTx1c2UgeD0nNTYuNDgnIHk9JzguNDgnIGZpbGwtb3BhY2l0eT0nMC4wNCcgeGxpbms6aHJlZj0nI3MnIC8+Cgk8dXNlIHg9JzAuNDgnIHk9JzE2LjQ4JyBmaWxsLW9wYWNpdHk9JzAuMDMnIHhsaW5rOmhyZWY9JyNzJyAvPgoJPHVzZSB4PSc4LjQ4JyB5PScxNi40OCcgZmlsbC1vcGFjaXR5PScwLjAyJyB4bGluazpocmVmPScjcycgLz4KCTx1c2UgeD0nMTYuNDgnIHk9JzE2LjQ4JyBmaWxsLW9wYWNpdHk9JzAuMDYnIHhsaW5rOmhyZWY9JyNzJyAvPgoJPHVzZSB4PScyNC40OCcgeT0nMTYuNDgnIGZpbGwtb3BhY2l0eT0nMC4wMicgeGxpbms6aHJlZj0nI3MnIC8+Cgk8dXNlIHg9JzMyLjQ4JyB5PScxNi40OCcgZmlsbC1vcGFjaXR5PScwLjA2JyB4bGluazpocmVmPScjcycgLz4KCTx1c2UgeD0nNDAuNDgnIHk9JzE2LjQ4JyBmaWxsLW9wYWNpdHk9JzAuMDQnIHhsaW5rOmhyZWY9JyNzJyAvPgoJPHVzZSB4PSc0OC40OCcgeT0nMTYuNDgnIGZpbGwtb3BhY2l0eT0nMC4wMycgeGxpbms6aHJlZj0nI3MnIC8+Cgk8dXNlIHg9JzU2LjQ4JyB5PScxNi40OCcgZmlsbC1vcGFjaXR5PScwLjA3JyB4bGluazpocmVmPScjcycgLz4KCTx1c2UgeD0nMC40OCcgeT0nMjQuNDgnIGZpbGwtb3BhY2l0eT0nMC4wNCcgeGxpbms6aHJlZj0nI3MnIC8+Cgk8dXNlIHg9JzguNDgnIHk9JzI0LjQ4JyBmaWxsLW9wYWNpdHk9JzAuMDMnIHhsaW5rOmhyZWY9JyNzJyAvPgoJPHVzZSB4PScxNi40OCcgeT0nMjQuNDgnIGZpbGwtb3BhY2l0eT0nMC4wNScgeGxpbms6aHJlZj0nI3MnIC8+Cgk8dXNlIHg9JzI0LjQ4JyB5PScyNC40OCcgZmlsbC1vcGFjaXR5PScwLjAzJyB4bGluazpocmVmPScjcycgLz4KCTx1c2UgeD0nNDAuNDgnIHk9JzI0LjQ4JyBmaWxsLW9wYWNpdHk9JzAuMDYnIHhsaW5rOmhyZWY9JyNzJyAvPgoJPHVzZSB4PSc0OC40OCcgeT0nMjQuNDgnIGZpbGwtb3BhY2l0eT0nMC4wMScgeGxpbms6aHJlZj0nI3MnIC8+Cgk8dXNlIHg9JzU2LjQ4JyB5PScyNC40OCcgZmlsbC1vcGFjaXR5PScwLjAzJyB4bGluazpocmVmPScjcycgLz4KCTx1c2UgeD0nMC40OCcgeT0nMzIuNDgnIGZpbGwtb3BhY2l0eT0nMC4wMScgeGxpbms6aHJlZj0nI3MnIC8+Cgk8dXNlIHg9JzguNDgnIHk9JzMyLjQ4JyBmaWxsLW9wYWNpdHk9JzAuMDYnIHhsaW5rOmhyZWY9JyNzJyAvPgoJPHVzZSB4PScxNi40OCcgeT0nMzIuNDgnIGZpbGwtb3BhY2l0eT0nMC4wMycgeGxpbms6aHJlZj0nI3MnIC8+Cgk8dXNlIHg9JzI0LjQ4JyB5PSczMi40OCcgZmlsbC1vcGFjaXR5PScwLjA1JyB4bGluazpocmVmPScjcycgLz4KCTx1c2UgeD0nMzIuNDgnIHk9JzMyLjQ4JyBmaWxsLW9wYWNpdHk9JzAuMDInIHhsaW5rOmhyZWY9JyNzJyAvPgoJPHVzZSB4PSc0OC40OCcgeT0nMzIuNDgnIGZpbGwtb3BhY2l0eT0nMC4wNScgeGxpbms6aHJlZj0nI3MnIC8+Cgk8dXNlIHg9JzU2LjQ4JyB5PSczMi40OCcgZmlsbC1vcGFjaXR5PScwLjAyJyB4bGluazpocmVmPScjcycgLz4KCTwvZz4KCTx1c2UgeD0nLTY0JyB5PSc0MCcgdHJhbnNmb3JtPSdtYXRyaXgoLTEgMCAwIDEgMCAwKScgeGxpbms6aHJlZj0nI2InIC8+Cgk8dXNlIHg9Jy0xMjgnIHk9Jy01NicgdHJhbnNmb3JtPSdtYXRyaXgoLTEgMCAwIC0xIDAgMCknIHhsaW5rOmhyZWY9JyNiJyAvPgoJPHVzZSB4PSc2NCcgeT0nLTk2JyB0cmFuc2Zvcm09J21hdHJpeCgxIDAgMCAtMSAwIDApJyB4bGluazpocmVmPScjYicgLz4KCTx1c2UgeD0nNjQnIHk9Jy0xNicgdHJhbnNmb3JtPSdtYXRyaXgoMSAwIDAgLTEgMCAwKScgeGxpbms6aHJlZj0nI2InIC8+Cjwvc3ZnPg==);
+		
+	}
+	
+	.footer {
+		margin-top: calc(100vh - 211px);
+	}
+	
+
+	
+    </style>
+	</head>
+	<body>
+	
+		<header>
+			<nav class="navbar navbar-expand-md navbar-dark fixed-top navstyle">
+				<a class="navbar-brand" href="./main.html"><img src="./assets/images/image.png" alt="GridTop logo" class="nav-image" /><span style="color: #2ebaff; font-weight: bold;">Grid</span><span style="color: #c400a1; font-weight: bold;">Top</span> Web Services</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+								<div class="collapse navbar-collapse" id="navbarCollapse">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link" href="./main.html">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="./technology.html">Technology</a>
+						</li>
+						<li class="nav-item active">
+							<a class="nav-link" href="./uxdesign.html">UX Design<span class="sr-only">(current)</span></a>
+						</li>
+						<!-- li class="nav-item">
+							<a class="nav-link disabled" href="#">Disabled</a>
+						</li -->
+					</ul>
+					<form class="form-inline">
+						<input class="form-control" type="text" placeholder="Search" aria-label="Search" />
+						<button class="btn btn-outline-success search-button" type="submit">Search</button>
+					</form>
+				</div>
+			</nav>
+		</header>
+
+  <!-- FOOTER -->
+<footer class="container-fluid footer" id = "footer">
+	
+	<div class="footer-column"><img src="./assets/images/image-transparent.png" alt="altlogo" class="footer-logo" / ></div><div class="footer-column"><span style="margin:auto">&copy;GridTop Web Services</span>
+	</div>
+
+
+	<div class="footer-column"><span><a href="#">Privacy</a> &middot; <a href="#">Terms</a></span></div>
+	<div class="footer-column"><span><a href="#">Back to top</a></span></div>
+	
+</footer>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>

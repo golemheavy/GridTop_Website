@@ -1,0 +1,32 @@
+complementary palette:
+
+#5ce1e6 (teal)
+#1cedeb (another teal)
+#30d9ff (another teal)
+
+#c400a1 (purple / magenta)
+
+#5ef25a (light green)
+5ef25a
+
+#0b29ff (blue)
+
+#454545 (dark gray)
+
+
+from logo:
+
+#772481 (darker magenta)
+##370e3c (even darker magenta for backgrounds)
+
+#5ce1e6 (teal)
+2ebaff
+
+#(purple)
+#6f42c1 darker purple
+6779cd  light purple
+677ace
+
+
+1cecea teal green
+30d9ff teal blue
