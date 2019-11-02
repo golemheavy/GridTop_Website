@@ -79,6 +79,15 @@ body {
 	padding: 20px;
 }
 
+#message {
+	height: 9.125rem;
+}
+
+.center-just {
+	display: flex;
+	justify-content: center;
+}
+
 /*
 .navbar-collapse {
 	margin-right: 1rem;
@@ -89,9 +98,11 @@ body {
 	margin: auto;
 }
 
+/*
 .form-control {
 	width: auto;
 }
+*/
 
 .form-inline {
 		display: none;

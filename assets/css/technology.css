@@ -9,7 +9,3 @@ body {
 		url("../images/eschercubesedited.png");
 		/* background-size: 500px; <-- size of texture can be changed here */
 }
-
-.footer {
-	margin-top: calc(100vh - 211px);
-}

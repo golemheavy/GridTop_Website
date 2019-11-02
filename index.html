@@ -1,17 +1,18 @@
-<!DOCTYPE html>
-<!-- saved from url=(0049)https://getbootstrap.com/docs/4.3/examples/cover/ -->
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Jekyll v3.8.5">
-    <title>Cover Template · Bootstrap</title>
+    <title>Start Here - GridTop Web Services</title>
 
-    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/cover/">
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/carousel/">
 
-     <!-- Bootstrap core CSS -->
+    <!-- Bootstrap core CSS -->
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
     <style>
@@ -29,50 +30,218 @@
           font-size: 3.5rem;
         }
       }
-	  
-	  
-	  .backgroundstyle {
-		background-image: url(./assets/images/bluecoverimg.jpg);
-		background-repeat: no-repeat;
-		background-attachment: fixed;
-		background-size: cover;
-		/* 
-		background-image: url(./assets/images/Bee_balm_seedhead-scaled.jpg);
-		background-color: blue;
-		background-blend-mode: multiply;
-		*/
-	  }
     </style>
     <!-- Custom styles for this template -->
-    <link href="./assets/css/cover.css" rel="stylesheet">
-  </head>
-  <body class="text-center backgroundstyle">
-    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-  <header class="masthead mb-auto">
-    <div class="inner">
-      <h3 class="masthead-brand">Cover</h3>
-      <nav class="nav nav-masthead justify-content-center">
-        <a class="nav-link active" href="https://getbootstrap.com/docs/4.3/examples/cover/#">Home</a>
-        <a class="nav-link" href="https://getbootstrap.com/docs/4.3/examples/cover/#">Features</a>
-        <a class="nav-link" href="https://getbootstrap.com/docs/4.3/examples/cover/#">Contact</a>
-      </nav>
+    <link href="./assets/css/style.css" rel="stylesheet">
+	</head>
+	<body>
+	
+		<header>
+			<nav class="navbar navbar-expand-md navbar-dark fixed-top navstyle">
+				<a class="navbar-brand" href="./index.html"><img src="./assets/images/image.png" alt="GridTop logo" class="nav-image" /><span style="color: #2ebaff; font-weight: bold;">Grid</span><span style="color: #c400a1; font-weight: bold;">Top</span> Web Services</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarCollapse">
+					<ul class="navbar-nav">
+						<li class="nav-item active">
+							<a class="nav-link" href="./index.html">Home<span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="./technology.html">Technology</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="./uxdesign.html">UX Design</a>
+						</li>
+						<!-- li class="nav-item">
+							<a class="nav-link disabled" href="#">Disabled</a>
+						</li -->
+					</ul>
+					<form class="form-inline">
+						<input class="form-control" type="text" placeholder="Search" aria-label="Search" />
+						<button class="btn btn-outline-success search-button" type="submit">Search</button>
+					</form>
+				</div>
+			</nav>
+		</header>
+		
+		<main role="main" >
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+				</ol>
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<!-- svg class="bd-placeholder-img" width="100%" height="100%" style="background-image: url(./assets/images/Jaflong_Sylhet-scaled_cropped.jpg);" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg -->
+						<img class="bd-placeholder-img" width="100%" height="100%" src="./assets/images/Jaflong_Sylhet-scaled_cropped.jpg" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></img>
+						<div class="container">
+							<div class="carousel-caption">
+								<h1>Modern Web Development</h1>
+								<p>Application and Web development with a personal touch.</p>
+								<p><a class="btn btn-lg btn-primary" href="#contact-form" role="button" style="margin-top: 1rem;">Sign up today</a></p>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<!--svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg -->
+						<img class="bd-placeholder-img" width="100%" height="100%" src="./assets/images/Puerto_de_Cotefablo,_Huesca,_España,_2015-01-07,_DD_02-04_HDR-cropped_scaled.jpg" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></img>
+						<div class="container">
+							<div class="carousel-caption">
+								<h1>Microservices built on Node.</h1>
+								<p>Your API will be assembled following industry standards from trusted components.</p>
+								<p><a class="btn btn-lg btn-primary" href="./technology.html" role="button">Learn more</a></p>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<!-- svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></svg -->
+						<img class="bd-placeholder-img" width="100%" height="100%" src="./assets/images/Sugarloaf_Sunrise_2-cropped_scaled.jpg" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img"><rect width="100%" height="100%" fill="#777"/></img>
+						<div class="container">
+							<div class="carousel-caption">
+								<h1>State of the Art UI Design.</h1>
+								<p>We specialize in modern front end frameworks like React and Angular, which means your site never looked so good or performed so well.</p>
+								<p><a class="btn btn-lg btn-primary" href="./uxdesign.html" role="button">See More</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+		<svg class="svg-inline--fa fa-desktop fa-w-18 my-3" width="100" height="100" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" aria-label="Font-awesome desktop" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="desktop" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M528 0H48C21.5 0 0 21.5 0 48v320c0 26.5 21.5 48 48 48h192l-16 48h-72c-13.3 0-24 10.7-24 24s10.7 24 24 24h272c13.3 0 24-10.7 24-24s-10.7-24-24-24h-72l-16-48h192c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48zm-16 352H64V64h448v288z"></path></svg>
+        <!--svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/></svg -->
+        <h2>Your brand's app or site, done right</h2>
+        <p>We work with you to build the perfect online presence for your business.</p>
+        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+		<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140" aria-hidden="true" data-prefix="fas" data-icon="server" class="svg-inline--fa fa-server fa-w-16 my-3" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M480 160H32c-17.673 0-32-14.327-32-32V64c0-17.673 14.327-32 32-32h448c17.673 0 32 14.327 32 32v64c0 17.673-14.327 32-32 32zm-48-88c-13.255 0-24 10.745-24 24s10.745 24 24 24 24-10.745 24-24-10.745-24-24-24zm-64 0c-13.255 0-24 10.745-24 24s10.745 24 24 24 24-10.745 24-24-10.745-24-24-24zm112 248H32c-17.673 0-32-14.327-32-32v-64c0-17.673 14.327-32 32-32h448c17.673 0 32 14.327 32 32v64c0 17.673-14.327 32-32 32zm-48-88c-13.255 0-24 10.745-24 24s10.745 24 24 24 24-10.745 24-24-10.745-24-24-24zm-64 0c-13.255 0-24 10.745-24 24s10.745 24 24 24 24-10.745 24-24-10.745-24-24-24zm112 248H32c-17.673 0-32-14.327-32-32v-64c0-17.673 14.327-32 32-32h448c17.673 0 32 14.327 32 32v64c0 17.673-14.327 32-32 32zm-48-88c-13.255 0-24 10.745-24 24s10.745 24 24 24 24-10.745 24-24-10.745-24-24-24zm-64 0c-13.255 0-24 10.745-24 24s10.745 24 24 24 24-10.745 24-24-10.745-24-24-24z"></path></svg>
+        <!-- svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#5ce1e6" dy=".3em">140x140</text></svg -->
+        <h2>Hassle-free hosting</h2>
+        <p>Completely painless server management. We manage the hardware so you don't have to!</p>
+        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+		<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="cash-register" class="svg-inline--fa fa-cash-register fa-w-16 my-3" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M511.1 378.8l-26.7-160c-2.6-15.4-15.9-26.7-31.6-26.7H208v-64h96c8.8 0 16-7.2 16-16V16c0-8.8-7.2-16-16-16H48c-8.8 0-16 7.2-16 16v96c0 8.8 7.2 16 16 16h96v64H59.1c-15.6 0-29 11.3-31.6 26.7L.8 378.7c-.6 3.5-.9 7-.9 10.5V480c0 17.7 14.3 32 32 32h448c17.7 0 32-14.3 32-32v-90.7c.1-3.5-.2-7-.8-10.5zM280 248c0-8.8 7.2-16 16-16h16c8.8 0 16 7.2 16 16v16c0 8.8-7.2 16-16 16h-16c-8.8 0-16-7.2-16-16v-16zm-32 64h16c8.8 0 16 7.2 16 16v16c0 8.8-7.2 16-16 16h-16c-8.8 0-16-7.2-16-16v-16c0-8.8 7.2-16 16-16zm-32-80c8.8 0 16 7.2 16 16v16c0 8.8-7.2 16-16 16h-16c-8.8 0-16-7.2-16-16v-16c0-8.8 7.2-16 16-16h16zM80 80V48h192v32H80zm40 200h-16c-8.8 0-16-7.2-16-16v-16c0-8.8 7.2-16 16-16h16c8.8 0 16 7.2 16 16v16c0 8.8-7.2 16-16 16zm16 64v-16c0-8.8 7.2-16 16-16h16c8.8 0 16 7.2 16 16v16c0 8.8-7.2 16-16 16h-16c-8.8 0-16-7.2-16-16zm216 112c0 4.4-3.6 8-8 8H168c-4.4 0-8-3.6-8-8v-16c0-4.4 3.6-8 8-8h176c4.4 0 8 3.6 8 8v16zm24-112c0 8.8-7.2 16-16 16h-16c-8.8 0-16-7.2-16-16v-16c0-8.8 7.2-16 16-16h16c8.8 0 16 7.2 16 16v16zm48-80c0 8.8-7.2 16-16 16h-16c-8.8 0-16-7.2-16-16v-16c0-8.8 7.2-16 16-16h16c8.8 0 16 7.2 16 16v16z"></path></svg>
+        <!-- svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#5ce1e6" dy=".3em">140x140</text></svg -->
+        <h2>E-Commerce Specialists</h2>
+        <p>We'll create your customized e-commerce platform. Whatever your business needs.</p>
+        <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette backfilter2">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Got an idea for an app? <span class="text-muted">We can build it.</span></h2>
+        <p class="lead">Your business is your business-- not software. Let us know how a web or smartphone application can take your brand to the next level.</p>
+      </div>
+      <div class="col-md-5">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+      </div>
     </div>
-  </header>
 
-  <main role="main" class="inner cover">
-    <h1 class="cover-heading">Cover your page.</h1>
-    <p class="lead">Cover is a one-page template for building simple and beautiful home pages. Download, edit the text, and add your own fullscreen background photo to make it your own.</p>
-    <p class="lead">
-      <a href="./main.html" class="btn btn-lg btn-secondary">Learn more</a>
-    </p>
-  </main>
+    <hr class="featurette-divider">
 
-  <footer class="mastfoot mt-auto">
-    <div class="inner">
-      <p>Cover template for <a href="https://getbootstrap.com/">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+    <div class="row featurette backfilter1">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Want to sell your products online? <span class="text-muted">We know E-Commerce.</span></h2>
+        <p class="lead">No matter what your business needs are, we can design a bespoke solution to give your customers the options they want.</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+      </div>
     </div>
-  </footer>
-</div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette blur">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Restauranteur? <span class="text-muted">You'll want to see this.</span></h2>
+        <p class="lead">From online ordering to integrated order tracking, we've got you covered. Click here to see more.</p>
+      </div>
+      <div class="col-md-5">
+        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+  
+		<div class="container-fluid pushdown py-3" id="contact-form">
+			<div id="contact" class="col col-xl-6 offset-xl-3 col-md-10 offset-md-1 pb-2">
+				<div class="col col-lg-12">
+					<h3 class="center-just">Contact Us!</h3>
+					<h4 class="center-just">Call or Text&nbsp;<span style="color:#fa20d3;">+1 (903) 883-6063</span></h4>
+					<p class="center-just">Send us a message or sign-up for our mailing list.</p>
+				</div>	
+				<form name="formcomment" method="post" action="//formspree.io/steve@gridtop.com">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="form-group">
+								<input type="text" class="form-control input-lg" name="name" id="name" placeholder="Your Name" required="required">
+							</div>
+							<div class="form-group">
+								<input type="email" class="form-control input-lg" name="email" id="email" placeholder="Your Email" required="required">
+							</div>
+							<div class="form-group">
+								<input type="number" class="form-control input-lg" name="phone" id="phone" placeholder="Your Phone Number" required="required">
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="form-group">
+								<textarea name="message" id="message" class="form-control" rows="4" cols="25" required="required" placeholder="Message"></textarea>
+							</div>	
+						</div>
+					</div>
+					<button type="submit" class="btn btn-lg btn-primary w-100" name="submitcomment">Send Message!</button>
+				</form>
+			</div>
+		</div>
+
+</main>
+  <!-- FOOTER -->
+<footer class="container-fluid footer" id = "footer">
+	
+	<div class="footer-column"><img src="./assets/images/image-transparent.png" alt="altlogo" class="footer-logo" / ></div><div class="footer-column"><span style="margin:auto">&copy;GridTop Web Services</span>
+	</div>
 
 
-</body></html>
+	<div class="footer-column"><span><a href="#">Privacy</a> &middot; <a href="#">Terms</a></span></div>
+	<div class="footer-column"><span><a href="#">Back to top</a></span></div>
+	
+</footer>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>
